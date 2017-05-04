@@ -1,25 +1,25 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6C50F0775E62C5981CBB77CF10879511C3375ECC",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D" : 9223372036854775807,
+    "6C50F0775E62C5981CBB77CF10879511C3375ECC" : 9223372036854775807,
     "EC89FBACF535F0981979E1D6BBC368840FB614F2" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0193BF98-1421-4BB9-A69C-BCC61BCC4EDD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D" : "DevelopTools\/",
+    "6C50F0775E62C5981CBB77CF10879511C3375ECC" : "iOSDevelopTools\/",
     "EC89FBACF535F0981979E1D6BBC368840FB614F2" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSDevelopTools",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSDevelopTools\/iOSDevelopTools.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSDevelopTools.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/irembeu\/DevelopTools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/irembeu\/iOSDevelopTools.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C50F0775E62C5981CBB77CF10879511C3375ECC"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iOSJason\/AnimationTabBarItemSwiftDemo.git",
