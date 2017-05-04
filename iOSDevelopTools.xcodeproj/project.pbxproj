@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45C791A1EBAF91000B02665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C79191EBAF91000B02665 /* main.m */; };
+		D45C791D1EBAF91000B02665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C791C1EBAF91000B02665 /* AppDelegate.m */; };
+		D45C79201EBAF91000B02665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C791F1EBAF91000B02665 /* ViewController.m */; };
+		D45C79231EBAF91000B02665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45C79211EBAF91000B02665 /* Main.storyboard */; };
+		D45C79251EBAF91000B02665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45C79241EBAF91000B02665 /* Assets.xcassets */; };
+		D45C79281EBAF91000B02665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45C79261EBAF91000B02665 /* LaunchScreen.storyboard */; };
+		D45C79361EBAFB4A00B02665 /* UILabel+LabelHeightAndWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C79351EBAFB4A00B02665 /* UILabel+LabelHeightAndWidth.m */; };
+		D45C793D1EBB133B00B02665 /* ArcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C793C1EBB133B00B02665 /* ArcVC.m */; };
+		D45C79401EBB4F1900B02665 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C793F1EBB4F1900B02665 /* NextViewController.m */; };
+		D45C79441EBB523100B02665 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D45C79431EBB523100B02665 /* 1.png */; };
+		D45C79491EBB554800B02665 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C79481EBB554800B02665 /* DLRadioButton.m */; };
+		D45C794F1EBB566C00B02665 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C794E1EBB566C00B02665 /* BaseViewController.m */; };
+		D45C79521EBB56B400B02665 /* RadioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C79511EBB56B400B02665 /* RadioVC.m */; };
+		D45C79551EBB5B9A00B02665 /* HTListButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C79541EBB5B9A00B02665 /* HTListButton.m */; };
+		D45C79581EBB5C6F00B02665 /* HTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C79571EBB5C6F00B02665 /* HTLabel.m */; };
+		D45C795B1EBB5E6900B02665 /* RCListButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C795A1EBB5E6900B02665 /* RCListButton.m */; };
+		D45C795E1EBB5F6F00B02665 /* RCKeySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D45C795D1EBB5F6F00B02665 /* RCKeySelectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D45C79151EBAF91000B02665 /* iOSDevelopTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevelopTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45C79191EBAF91000B02665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D45C791B1EBAF91000B02665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D45C791C1EBAF91000B02665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D45C791E1EBAF91000B02665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D45C791F1EBAF91000B02665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D45C79221EBAF91000B02665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45C79241EBAF91000B02665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45C79271EBAF91000B02665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45C79291EBAF91000B02665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45C79341EBAFB4A00B02665 /* UILabel+LabelHeightAndWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LabelHeightAndWidth.h"; sourceTree = "<group>"; };
+		D45C79351EBAFB4A00B02665 /* UILabel+LabelHeightAndWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LabelHeightAndWidth.m"; sourceTree = "<group>"; };
+		D45C793B1EBB133B00B02665 /* ArcVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcVC.h; sourceTree = "<group>"; };
+		D45C793C1EBB133B00B02665 /* ArcVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcVC.m; sourceTree = "<group>"; };
+		D45C793E1EBB4F1900B02665 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		D45C793F1EBB4F1900B02665 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		D45C79431EBB523100B02665 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D45C79471EBB554800B02665 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		D45C79481EBB554800B02665 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		D45C794D1EBB566C00B02665 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D45C794E1EBB566C00B02665 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D45C79501EBB56B400B02665 /* RadioVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioVC.h; sourceTree = "<group>"; };
+		D45C79511EBB56B400B02665 /* RadioVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioVC.m; sourceTree = "<group>"; };
+		D45C79531EBB5B9A00B02665 /* HTListButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTListButton.h; sourceTree = "<group>"; };
+		D45C79541EBB5B9A00B02665 /* HTListButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTListButton.m; sourceTree = "<group>"; };
+		D45C79561EBB5C6F00B02665 /* HTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLabel.h; sourceTree = "<group>"; };
+		D45C79571EBB5C6F00B02665 /* HTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLabel.m; sourceTree = "<group>"; };
+		D45C79591EBB5E6900B02665 /* RCListButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCListButton.h; sourceTree = "<group>"; };
+		D45C795A1EBB5E6900B02665 /* RCListButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCListButton.m; sourceTree = "<group>"; };
+		D45C795C1EBB5F6F00B02665 /* RCKeySelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCKeySelectView.h; sourceTree = "<group>"; };
+		D45C795D1EBB5F6F00B02665 /* RCKeySelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCKeySelectView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45C79121EBAF91000B02665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45C790C1EBAF91000B02665 = {
+			isa = PBXGroup;
+			children = (
+				D45C79171EBAF91000B02665 /* iOSDevelopTools */,
+				D45C79161EBAF91000B02665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45C79161EBAF91000B02665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45C79151EBAF91000B02665 /* iOSDevelopTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45C79171EBAF91000B02665 /* iOSDevelopTools */ = {
+			isa = PBXGroup;
+			children = (
+				D45C79461EBB553600B02665 /* DLRadioButton */,
+				D45C79371EBB0BDC00B02665 /* AnimationView */,
+				D45C79331EBAFB2300B02665 /* LableHeightAndWidth */,
+				D45C791B1EBAF91000B02665 /* AppDelegate.h */,
+				D45C791C1EBAF91000B02665 /* AppDelegate.m */,
+				D45C794D1EBB566C00B02665 /* BaseViewController.h */,
+				D45C794E1EBB566C00B02665 /* BaseViewController.m */,
+				D45C791E1EBAF91000B02665 /* ViewController.h */,
+				D45C791F1EBAF91000B02665 /* ViewController.m */,
+				D45C79211EBAF91000B02665 /* Main.storyboard */,
+				D45C79241EBAF91000B02665 /* Assets.xcassets */,
+				D45C79261EBAF91000B02665 /* LaunchScreen.storyboard */,
+				D45C79291EBAF91000B02665 /* Info.plist */,
+				D45C79181EBAF91000B02665 /* Supporting Files */,
+			);
+			path = iOSDevelopTools;
+			sourceTree = "<group>";
+		};
+		D45C79181EBAF91000B02665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45C79191EBAF91000B02665 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D45C79331EBAFB2300B02665 /* LableHeightAndWidth */ = {
+			isa = PBXGroup;
+			children = (
+				D45C79341EBAFB4A00B02665 /* UILabel+LabelHeightAndWidth.h */,
+				D45C79351EBAFB4A00B02665 /* UILabel+LabelHeightAndWidth.m */,
+			);
+			path = LableHeightAndWidth;
+			sourceTree = "<group>";
+		};
+		D45C79371EBB0BDC00B02665 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				D45C79431EBB523100B02665 /* 1.png */,
+				D45C793B1EBB133B00B02665 /* ArcVC.h */,
+				D45C793C1EBB133B00B02665 /* ArcVC.m */,
+				D45C793E1EBB4F1900B02665 /* NextViewController.h */,
+				D45C793F1EBB4F1900B02665 /* NextViewController.m */,
+			);
+			path = AnimationView;
+			sourceTree = "<group>";
+		};
+		D45C79461EBB553600B02665 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				D45C79561EBB5C6F00B02665 /* HTLabel.h */,
+				D45C79571EBB5C6F00B02665 /* HTLabel.m */,
+				D45C79531EBB5B9A00B02665 /* HTListButton.h */,
+				D45C79541EBB5B9A00B02665 /* HTListButton.m */,
+				D45C79471EBB554800B02665 /* DLRadioButton.h */,
+				D45C79481EBB554800B02665 /* DLRadioButton.m */,
+				D45C79501EBB56B400B02665 /* RadioVC.h */,
+				D45C79511EBB56B400B02665 /* RadioVC.m */,
+				D45C79591EBB5E6900B02665 /* RCListButton.h */,
+				D45C795A1EBB5E6900B02665 /* RCListButton.m */,
+				D45C795C1EBB5F6F00B02665 /* RCKeySelectView.h */,
+				D45C795D1EBB5F6F00B02665 /* RCKeySelectView.m */,
+			);
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45C79141EBAF91000B02665 /* iOSDevelopTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45C792C1EBAF91000B02665 /* Build configuration list for PBXNativeTarget "iOSDevelopTools" */;
+			buildPhases = (
+				D45C79111EBAF91000B02665 /* Sources */,
+				D45C79121EBAF91000B02665 /* Frameworks */,
+				D45C79131EBAF91000B02665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDevelopTools;
+			productName = iOSDevelopTools;
+			productReference = D45C79151EBAF91000B02665 /* iOSDevelopTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45C790D1EBAF91000B02665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "劉光軍";
+				TargetAttributes = {
+					D45C79141EBAF91000B02665 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4AJ7PG293L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D45C79101EBAF91000B02665 /* Build configuration list for PBXProject "iOSDevelopTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45C790C1EBAF91000B02665;
+			productRefGroup = D45C79161EBAF91000B02665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45C79141EBAF91000B02665 /* iOSDevelopTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45C79131EBAF91000B02665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45C79281EBAF91000B02665 /* LaunchScreen.storyboard in Resources */,
+				D45C79251EBAF91000B02665 /* Assets.xcassets in Resources */,
+				D45C79231EBAF91000B02665 /* Main.storyboard in Resources */,
+				D45C79441EBB523100B02665 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45C79111EBAF91000B02665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45C79581EBB5C6F00B02665 /* HTLabel.m in Sources */,
+				D45C79201EBAF91000B02665 /* ViewController.m in Sources */,
+				D45C794F1EBB566C00B02665 /* BaseViewController.m in Sources */,
+				D45C79401EBB4F1900B02665 /* NextViewController.m in Sources */,
+				D45C79491EBB554800B02665 /* DLRadioButton.m in Sources */,
+				D45C793D1EBB133B00B02665 /* ArcVC.m in Sources */,
+				D45C795B1EBB5E6900B02665 /* RCListButton.m in Sources */,
+				D45C79551EBB5B9A00B02665 /* HTListButton.m in Sources */,
+				D45C79361EBAFB4A00B02665 /* UILabel+LabelHeightAndWidth.m in Sources */,
+				D45C791D1EBAF91000B02665 /* AppDelegate.m in Sources */,
+				D45C795E1EBB5F6F00B02665 /* RCKeySelectView.m in Sources */,
+				D45C791A1EBAF91000B02665 /* main.m in Sources */,
+				D45C79521EBB56B400B02665 /* RadioVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D45C79211EBAF91000B02665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45C79221EBAF91000B02665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45C79261EBAF91000B02665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45C79271EBAF91000B02665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45C792A1EBAF91000B02665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D45C792B1EBAF91000B02665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45C792D1EBAF91000B02665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4AJ7PG293L;
+				INFOPLIST_FILE = iOSDevelopTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jason.iOSDevelopTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D45C792E1EBAF91000B02665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4AJ7PG293L;
+				INFOPLIST_FILE = iOSDevelopTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jason.iOSDevelopTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45C79101EBAF91000B02665 /* Build configuration list for PBXProject "iOSDevelopTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45C792A1EBAF91000B02665 /* Debug */,
+				D45C792B1EBAF91000B02665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45C792C1EBAF91000B02665 /* Build configuration list for PBXNativeTarget "iOSDevelopTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45C792D1EBAF91000B02665 /* Debug */,
+				D45C792E1EBAF91000B02665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45C790D1EBAF91000B02665 /* Project object */;
+}

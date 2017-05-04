@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D" : 9223372036854775807,
+    "EC89FBACF535F0981979E1D6BBC368840FB614F2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0193BF98-1421-4BB9-A69C-BCC61BCC4EDD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D" : "DevelopTools\/",
+    "EC89FBACF535F0981979E1D6BBC368840FB614F2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSDevelopTools",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSDevelopTools\/iOSDevelopTools.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/irembeu\/DevelopTools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7A22BA0FBE686B2575B9DBBE565CBE6FCCE420D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iOSJason\/AnimationTabBarItemSwiftDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC89FBACF535F0981979E1D6BBC368840FB614F2"
+    }
+  ]
+}
